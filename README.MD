@@ -22,3 +22,11 @@ I will be making a simple flask web application to understand it better. I want 
 1. make a pythonfile to run flask, I am using flaskdemo.py
 2. Add the shebang to the python script (its like bash scripting shebang but use python3)
    #!/bin/python3
+3. Import flask by:
+   from flask import Flask
+4. create and app variable that the uses the Flask function
+5. We are going to add python decorator with @ its so function. works almost like components from react but with functions
+
+### New purpose
+
+This web application is now going to tell me the time in portugal using more modules. To render the index html we are going to use render_timplate. We are also going to import datetime and pytz. datetime gives current date and time while pytze is a libary for handling diffrent timezone.
