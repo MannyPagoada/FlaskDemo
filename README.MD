@@ -9,8 +9,10 @@
 ### Prep
 
 1. Make sure you install python3 and python3-pip
+
    sudo apt install python3
    sudo apt install python3-pip
+
 2. Run command to get flask
    sudo pip3 install flask
 3. Get tools to be able to make api request
