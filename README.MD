@@ -6,8 +6,18 @@
 
 ## Steps
 
-    ### Prep
+### Prep
 
-    1. Make sure you install python3 and python3-pip
-    2. Run 'sudo pip3 install flask' - to get flask
-    3. Run 'pip3 install request' - to get be able to make request
+1. Make sure you install python3 and python3-pip
+   sudo apt install python3
+   sudo apt install python3-pip
+2. Run command to get flask
+   sudo pip3 install flask
+3. Get tools to be able to make api request
+   pip3 install request
+
+### Set up
+
+1. make a pythonfile to run flask, I am using flaskdemo.py
+2. Add the shebang to the python script (its like bash scripting shebang but use python3)
+   #!/bin/python3
